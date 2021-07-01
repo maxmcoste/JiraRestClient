@@ -50,7 +50,7 @@ public class JiraRestClient implements RestParamConstants, RestPathConstants {
     private String username = StringUtils.EMPTY;
     private CloseableHttpClient httpclient;
     private HttpHost proxyHost;
-    private CookieStore cookieStore = new BasicCookieStore();
+    //private CookieStore cookieStore = new BasicCookieStore();
     private HttpClientContext clientContext;
 
     private static Map<String, FieldBean> customfields;
